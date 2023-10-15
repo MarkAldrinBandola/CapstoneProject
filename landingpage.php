@@ -18,7 +18,8 @@
 </head>
 <body>
 
-  <div class="loader">
+  <!-- loader to guys 
+    <div class="loader">
     <svg viewBox="0 0 80 80">
         <circle id="test" cx="40" cy="40" r="32"></circle>
     </svg>
@@ -34,7 +35,7 @@
     <svg viewBox="0 0 80 80">
         <rect x="8" y="8" width="64" height="64"></rect>
     </svg>
-</div>
+</div> -->
 
     <!-- <nav class="navbar navbar-expand-lg bg-primary" >
         <div class="container-fluid d-flex justify-content-end">
@@ -83,9 +84,48 @@
         <li class="nav-item"><a class="nav-link" href="services">Our Services</a></li>
         <li class="nav-item"><a class="nav-link" href="aboutus">About Us</a></li>
         <li class="nav-item"><a class="nav-link" href="contacts">Contact Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="login">Log In</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.php">Log In</a></li>
       </ul>
+    
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Log in
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <form class="form" action="login.php" method="POST">
+        <p class="form-title">Sign in to your account</p>
+      
+          <div class="input-container">
+            <input type="Text" placeholder="Username" name="username" id="username">
+            <span>
+           </span>
+        </div>
+        <div class="input-container">
+            <input type="password" placeholder="Enter password" name="password" id="password">
+          </div>
+          <button type="submit" class="submit">
+          Sign in
+        </button>
+
+        <p class="signup-link">
+          No account?
+          <a href="">Sign up</a>
+        </p>
+      </form>
+      </div>
      
+    </div>
+  </div>
+</div>
+     
+</div>
       
        
       
