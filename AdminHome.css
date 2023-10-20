@@ -1,0 +1,53 @@
+body{
+    background: #eee;
+    /* background: linear-gradient(to right, #007BFF, #00BFFF); */
+   }
+   
+   #side_nav{
+    background: #ffffff;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+   }
+   .content{
+      min-height: 100vh;
+      width: 100%;
+   }
+   hr.h-color{
+     background: #02d452;
+   }
+   
+   .sidebar li.active{
+      background: #326ef1;
+      border-radius: 8px;
+   }
+   
+   .sidebar li.active a, .sidebar li.active a:hover {
+    color: #ffffff;
+   }
+   .sidebar li a{
+    color: #000000;
+   }
+   
+   @media(max-width: 767px){
+    #side_nav{
+      margin-left: -250px;
+      position: absolute;
+      min-height: 100vh;
+      z-index: 1;
+   
+    }
+    #side_nav.active{
+      margin-left: 0;
+     }
+   }
+   #navbarSupportedContent ul li a{
+    float: left;
+   }
+   #buttonNew{
+    margin-left: auto;
+   }
+
+   .custom-dropdown-button::after {
+    content: none; /* Remove the default dropdown icon */
+  }

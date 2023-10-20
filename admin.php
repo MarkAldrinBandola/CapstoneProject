@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="adminDashboard.css">
+    <script src="adminDashboard.js"></script>
     <title>Admin</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <div class="sidebar" id="side_nav">
             <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-between">
                 <h1 class="fs-4"><span class="bg-white text-dark rounded shadow px-2 me-2">CL</span> <span
-                        class="text-white">Coding League</span></h1>
+                        class="text-white">World of Smiles</span></h1>
                 <button class="btn d-md-none d-block close-btn px-1 py-0 text-white"><i
                         class="fal fa-stream"></i></button>
             </div>
